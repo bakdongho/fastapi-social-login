@@ -1,2 +1,2 @@
-class InvalidRequest(Exception):
+class InvalidToken(Exception):
     pass
