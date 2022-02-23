@@ -1,6 +1,5 @@
 import secrets
 from typing import Optional
-from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi import Depends, FastAPI, Header, Query, Request, HTTPException, status
 from starlette.templating import Jinja2Templates
